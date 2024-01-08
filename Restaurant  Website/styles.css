@@ -1,0 +1,160 @@
+.one{
+    background-image: url() ;
+    width:100% ;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("samuel-foster-LxD9fZYR2uw-unsplash.jpg");
+background-size: cover;
+background-position: center;
+overflow: auto;
+    
+    
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: 30px;
+}
+
+
+.navbar ul li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px ;
+
+
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+.content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    
+    font-size: 60px;
+}
+
+.content h2{
+    font-size: 100px;
+    font-family: Snell Roundhand, cursive;
+    
+}
+
+.main{
+    scroll-snap-type: y mandatory;
+}
+
+
+section {
+    height:120vh;
+   
+    scroll-snap-align: start;
+}
+
+
+
+
+.boxes{
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+.boxes div{
+    background-color:rgb(242, 242, 242);
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    
+}
+
+
+.boxes div h1{
+    text-align: center;
+}
+
+.first{
+    background-image: url() ;
+    width:140% ;
+    height: 65vh;
+    background-image: url("https://www.recipetineats.com/wp-content/uploads/2023/09/Garlic-noodles-with-egg-close-up.jpg");
+background-size: cover;
+background-position: center;
+overflow: auto;
+}
+
+
+.second{
+    background-image: url() ;
+    width:100% ;
+    height: 65vh;
+    background-image: url("https://www.vmcdn.ca/f/files/via/images/food/gordon-ramsay-burger.jpg");
+background-size: cover;
+background-position: center;
+overflow: auto;
+}
+
+
+.third{
+    background-image: url() ;
+    width:100% ;
+    height: 65vh;
+    background-image: url("https://media.timeout.com/images/105329891/750/562/image.jpg");
+background-size: cover;
+background-position: center;
+overflow: auto;
+
+}
+
+
+.description{
+    margin: 40px;
+    text-align: center;
+    font-family: 'Brush Script MT', bold;
+    font-weight: bold;
+    font-size: 37px;
+}
+    
+
+
+
+.footer{
+    background-color: rgb(242, 242, 242);
+    text-align:  center;
+    margin: 40px;
+    font-weight: lighter;
+}
